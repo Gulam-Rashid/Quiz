@@ -1,0 +1,43 @@
+{
+  "id": "web-dev-basics",
+  "title": "Web Development Basics",
+  "description": "Test your knowledge of core HTML, CSS, and JavaScript concepts.",
+  "time": 600,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Text Markup Language", "High Text Markup Language", "Hyper Tabular Markup Language", "None of these"],
+      "answer": 0,
+      "explanation": "HTML stands for Hyper Text Markup Language. It is the standard markup language for documents designed to be displayed in a web browser."
+    },
+    {
+      "id": 2,
+      "question": "Which CSS property controls the text size?",
+      "options": ["text-style", "font-style", "font-size", "text-size"],
+      "answer": 2,
+      "explanation": "The font-size property is used to change the size of the text in CSS."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is not a JavaScript data type?",
+      "options": ["Undefined", "Number", "Boolean", "Float"],
+      "answer": 3,
+      "explanation": "JavaScript has standard data types like Number, String, Boolean, Undefined, but it treats all numbers as 'Number' (64-bit floating point), so 'Float' is not a distinct data type in JS."
+    },
+    {
+      "id": 4,
+      "question": "What does CSS stand for?",
+      "options": ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets"],
+      "answer": 1,
+      "explanation": "CSS stands for Cascading Style Sheets. It describes how HTML elements are to be displayed on screen, paper, or in other media."
+    },
+    {
+      "id": 5,
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "options": ["<js>", "<scripting>", "<javascript>", "<script>"],
+      "answer": 3,
+      "explanation": "The <script> tag is used to embed a client-side script (JavaScript) in an HTML document."
+    }
+  ]
+}

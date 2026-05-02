@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Web Development Basics",
+    "file": "data/web-dev-basics.json"
+  },
+  {
+    "name": "React Fundamentals",
+    "file": "data/react-fundamentals.json"
+  },
+  {
+    "name": "CSS Mastery",
+    "file": "data/css-mastery.json"
+  }
+]

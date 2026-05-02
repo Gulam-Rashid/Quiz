@@ -1,0 +1,29 @@
+{
+  "id": "css-mastery",
+  "title": "CSS Mastery",
+  "description": "Evaluate your skills in modern CSS layouts, Flexbox, and Grid.",
+  "time": 300,
+  "questions": [
+    {
+      "id": 201,
+      "question": "Which CSS property is used in Flexbox to justify items along the main axis?",
+      "options": ["align-items", "justify-content", "align-content", "justify-items"],
+      "answer": 1,
+      "explanation": "The justify-content property aligns flexible container's items when the items do not use all available space on the main-axis."
+    },
+    {
+      "id": 202,
+      "question": "What is the default display value of a <div> element?",
+      "options": ["inline", "block", "inline-block", "flex"],
+      "answer": 1,
+      "explanation": "A <div> element is a block-level element, which means it starts on a new line and takes up the full width available (display: block)."
+    },
+    {
+      "id": 203,
+      "question": "How do you specify a grid container in CSS Grid?",
+      "options": ["display: grid;", "display: flex;", "grid-template: container;", "display: block-grid;"],
+      "answer": 0,
+      "explanation": "To make an element a grid container, you apply 'display: grid;' or 'display: inline-grid;' to it."
+    }
+  ]
+}

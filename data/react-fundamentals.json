@@ -1,0 +1,36 @@
+{
+  "id": "react-fundamentals",
+  "title": "React Fundamentals",
+  "description": "Test your understanding of React concepts, components, and hooks.",
+  "time": 480,
+  "questions": [
+    {
+      "id": 101,
+      "question": "What is the correct way to update a state variable named 'count' in a functional component?",
+      "options": ["this.state.count = count + 1", "setCount(count + 1)", "count = count + 1", "updateState(count + 1)"],
+      "answer": 1,
+      "explanation": "In functional components using the useState hook, you must use the setter function (typically named set[Variable]) to update the state."
+    },
+    {
+      "id": 102,
+      "question": "Which hook is used for performing side effects in functional components?",
+      "options": ["useState", "useEffect", "useMemo", "useContext"],
+      "answer": 1,
+      "explanation": "The useEffect hook is used to perform side effects like fetching data, subscriptions, or manually changing the DOM."
+    },
+    {
+      "id": 103,
+      "question": "What does JSX stand for?",
+      "options": ["JavaScript XML", "Java Syntax Extension", "JSON X", "JavaScript X-Mode"],
+      "answer": 0,
+      "explanation": "JSX stands for JavaScript XML. It is a syntax extension for JavaScript often used with React to describe what the UI should look like."
+    },
+    {
+      "id": 104,
+      "question": "In React, what are props?",
+      "options": ["Internal state of a component", "HTML attributes", "Arguments passed into React components", "Variables used inside functional components"],
+      "answer": 2,
+      "explanation": "Props (short for properties) are arguments passed into React components from their parent components, functioning similarly to HTML attributes."
+    }
+  ]
+}
